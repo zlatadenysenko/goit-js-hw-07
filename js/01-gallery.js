@@ -9,8 +9,6 @@ const galerryMarkup = creatGalleryMarkup(galleryItems);
 galleryContainer.insertAdjacentHTML(`beforeend`, galerryMarkup);
 
 galleryContainer.addEventListener(`click`, onGalerryContainerClick);
-galleryContainer.addEventListener(`click`, onOpenModal);
-galleryContainer.addEventListener(`click`, onCloseModal);
 
 function creatGalleryMarkup(galleryItems) {
   return galleryItems
